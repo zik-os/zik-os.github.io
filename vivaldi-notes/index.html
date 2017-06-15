@@ -1,0 +1,73 @@
+
+<html>
+	<title>Converter Opera notes to Vivaldi notes</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<link rel="shortcut icon" type="image/png" href="https://cloud.githubusercontent.com/assets/12486341/10410300/fd9118ae-6f4e-11e5-9982-90d003e0b795.png"/>
+<head>
+<style>
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 42pt;
+    margin: 10px 0 0 0;
+    font-weight: bold;
+    -webkit-text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+    -moz-text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+    color: #777;
+}
+body {
+    background-color: #f6f6f6;
+    margin: 2px 0 0 0;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11pt;
+}
+
+
+#but {
+    display: inline-block;
+    width: 300px;
+    height: 100px;
+    margin-top: -150px;
+    margin-left: 995px;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 26px;
+    line-height: 1.42857143;
+    border-radius: 2px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    color: #fff;
+    background-color: #35aa47;
+    border-color: #2f973f;
+}
+</style>
+</head>
+<body id="bd">
+<center><h1>This is converter Opera notes to Vivaldi notes</h1><br></center>
+<p>
+<ol style="font-size: 18px; width: 800px; margin-top: 0px; margin-left: 70px">
+<li>Обновите Opera 12.17 до Opera Blink.</li>
+<li>После обновления на Рабочем Столе появится "Opera 12 Notes.html".</li>
+<li>Скопируйте содержимое этого файла сюда и нажмите "Convert".</li>
+<li>Получившийся JSON скопируйте в текстовой файл заметок Vivaldi. <br>(Обычно он находится по адресу %AppData%\Local\Vivaldi\User Data\Default\Notes)</li>
+<li>Перезагрузите Vivaldi.</li>
+</ol></p>
+<input type="button" id="but" value="Convert">
+<center>
+<br>
+<textarea id="inp" rows="25" cols="170">
+</textarea>
+</center>
+</body>
+<script src="common.js"></script>
+</html>
